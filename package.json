@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "devstart": "nodemon ./bin/www"
+    "devstart": "nodemon ./bin/www",
+    "start": "node app.js"
+    
   },
   "keywords": [
     "javascript",
@@ -26,5 +28,8 @@
   },
   "devDependencies": {
     "nodemon": "^1.18.7"
+  },
+  "scripts": {
+    "start": "node app.js"
   }
 }
