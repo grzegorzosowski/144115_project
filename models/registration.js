@@ -39,4 +39,3 @@ const Registration = module.exports = mongoose.model('Registration', registratio
 module.exports.addUser = function(registration, callback){
     Registration.create(registration, callback);
 }
-//module.exports.registrations = mongoose.model("registrations", registrationSchema);
